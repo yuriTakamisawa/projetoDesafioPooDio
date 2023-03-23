@@ -149,7 +149,7 @@ replay_pid*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
+!.vscode/extensios.json
 !.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
