@@ -1,11 +1,16 @@
 package br.com.dio.desafio.dominio;
 
-public class Curso {
+public class Curso extends Conteudo {
 
     private String titulo, descricao;
     private Integer carhaHoraria;
 
     public Curso() {
+    }
+
+    @Override
+    public double calcularXP() {
+        return XP_PADRAO*carhaHoraria;
     }
 
     public String getTitulo() {
